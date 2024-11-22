@@ -1,6 +1,6 @@
 cc = gcc
 FLAGS = -Wall -Wextra -Werror
-FILES = ft_isalpha.c ft_isdigit.c
+FILES = ft_isalpha.c ft_isdigit.c ft_isalnum.c
 OBJ = $(FILES:.c=.o)
 NAME = libft.a
 
