@@ -12,6 +12,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	result = malloc(sizeof(char) * (len + 1));
 	if (!result)
 		return (NULL);
+	i = 0;
 	while (start + i < (unsigned int)ft_strlen(s) && i < len)
 	{
 		result[i] = s[start + i];
